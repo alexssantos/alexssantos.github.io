@@ -7481,14 +7481,14 @@ select {
     outline: 0; }
 
 .section {
-  padding-top: 120px;
+  padding-top: 20px;
   padding-bottom: 120px; }
   @media (max-width: 767px) {
     .section {
-      padding-top: 80px;
+      padding-top: 20px;
       padding-bottom: 80px; } }
   .section-sm {
-    padding-top: 80px;
+    padding-top: 20px;
     padding-bottom: 80px; }
   .section-title {
     margin-bottom: 45px;
