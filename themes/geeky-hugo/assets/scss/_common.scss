@@ -47,16 +47,16 @@ select {
 }
 
 .section {
-  padding-top: 120px;
+  padding-top: 20px;
   padding-bottom: 120px;
 
   @include tablet {
-    padding-top: 80px;
+    padding-top: 20px;
     padding-bottom: 80px;
   }
 
   &-sm {
-    padding-top: 80px;
+    padding-top: 20px;
     padding-bottom: 80px;
   }
 

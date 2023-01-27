@@ -1,9 +1,9 @@
 ######################## default configuration ####################
 baseURL = "https://alexssantos.github.io/"
-title = "Alex S.Santos | Personal Blog"
+title = "@alexssantos | Blog"
 theme = "geeky-hugo"
-languageName = "En"
-languageCode = "en-us"
+languageName = "Br"
+languageCode = "pt-br"
 # post pagination
 paginate = "6"
 # post excerpt
@@ -35,11 +35,11 @@ quality = 90
 [caches]
 [caches.images]
 dir = ":resourceDir/_gen"
-maxAge = "720h"
+maxAge = "72h"
 
 [caches.assets]
 dir = ":resourceDir/_gen"
-maxAge = "720h"
+maxAge = "72h"
 
 
 ############################# Markup ###############################
