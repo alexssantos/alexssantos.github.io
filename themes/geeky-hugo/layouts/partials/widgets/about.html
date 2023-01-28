@@ -3,10 +3,22 @@
 {{ $bgImage:= $bgImage.Resize "400x webp" }}
 <div class="widget bg-center" style="background-image: url('{{ $bgImage.RelPermalink }}');">
   <!-- navbar brand/logo -->
-  <a class="d-block mb-4" href="{{ site.BaseURL | relLangURL }}/">
-    {{ partial "logo.html" }}
-  </a>
+  <a class="d-block mb-4" href="{{ site.BaseURL | relLangURL }}/">{{ partial "logo.html" }}</a>
+
+  <!-- <div class="card rounded-0">
+    <div class="d-sm-flex"> 
+      {{ partial "logo.html" 
+      (dict 
+        "Src" .Params.image         
+        "Class" "img-fluid rounded-4 align-items-center" 
+        "Command" "Fill"
+        "Size" "105x85" ) }} 
+    </div>
+  </div> -->
+
+  <!-- texto descritivo -->
   <p class="mb-4 text-light-700">{{site.Params.about_widget_content | markdownify}}</p>
+  <!-- redes sociais -->
   <ul class="list-inline social-icons">
     {{ range site.Params.social }}
     <li class="list-inline-item">
