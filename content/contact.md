@@ -11,15 +11,15 @@ instruction_a: "Send Us A"
 instruction_b: " message"
 
 full_name_title: "Full name"
-full_name_placeholder: "Thomas Milano"
+full_name_placeholder: "My Name..."
 
 email_title: "Email Address"
-email_placeholder: "example@email.com"
+email_placeholder: "myname@email.com"
 
 subject_title: "Subject"
 subject_placeholder: "Blog advertisement"
 
 content_title: "Your Message Here"
-content_placeholder: "Hello I’m Mr ‘x’ from.............."
+content_placeholder: "Hello I’m 'x' from ...."
 
 ---
