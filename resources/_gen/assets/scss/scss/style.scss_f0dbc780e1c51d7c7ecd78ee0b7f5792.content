@@ -7885,7 +7885,7 @@ select {
   display: block; }
 
 .search .list-inline-item:not(:last-child) {
-  margin-right: 15px; }
+  margin-right: 10px; }
 
 .search-wrap {
   position: absolute;
