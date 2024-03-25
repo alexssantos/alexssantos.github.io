@@ -57,7 +57,7 @@ jobs:
             \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 
       - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
 
@@ -72,9 +72,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Configure Pages
-        uses: actions/configure-pages@v4
-
+      # - name: Configure Pages
+      #   uses: actions/configure-pages@v4
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
