@@ -18,8 +18,6 @@ Aqui você vai ver:
 - algumas dicas
 - códigos novos semanalmente
 
-
-
 ```csharp
     Console.WriteLine("Hello World! 🖐🏻");
 ```
